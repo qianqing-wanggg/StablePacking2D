@@ -1,7 +1,6 @@
 
 from kine_2d import ContPoint, Element,ContType
 import numpy as np
-import cv2
 from kine_2d import cal_Aglobal, solve_force_rigid
 
 import matplotlib.pyplot as plt

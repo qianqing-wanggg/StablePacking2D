@@ -7,10 +7,10 @@ import datetime
 from skimage.measure import regionprops
 import matplotlib.pyplot as plt
 from rotate_stone import rotate_axis_align
-def argsort(seq):
-    # http://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python/3383106#3383106
-    #lambda version by Tony Veijalainen
-    return [x for x in sorted(range(len(seq)), key = lambda x: np.sum(seq[x]),reverse=True)]
+# def argsort(seq):
+#     # http://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python/3383106#3383106
+#     #lambda version by Tony Veijalainen
+#     return [x for x in sorted(range(len(seq)), key = lambda x: np.sum(seq[x]),reverse=True)]
 
 def read_example5_stones(scale):
     data_dir = '../data/example5/stones'
