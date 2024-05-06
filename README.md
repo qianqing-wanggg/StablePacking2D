@@ -1,6 +1,6 @@
 # Stable stone packing in 2D
 
-references to be added
+This is a simplified implementation of [the StablePacking-2D algorithm](https://github.com/eesd-epfl/StablePacking-2D). The methodology is published in the paper entitled [An image convolution-based method for the irregular stone packing problem in masonry wall construction](https://www.sciencedirect.com/science/article/pii/S0377221724000730?via%3Dihub).
 
 ## Installation
 
